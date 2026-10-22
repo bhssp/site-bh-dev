@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./pexels-waltc-31249489.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 30px 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+.container h1 {
+    font-size: 36px !important;
+    text-align: center !important;
+    margin-bottom: 10px !important;
+    color: #ffffff !important; 
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #b1b1b1;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -15px 0 15px;
+}
+
+
+.remember-forgot label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff; 
+}
+
+.remember-forgot label input {
+    accent-color: #ffffff;
+    margin: 0;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+    color: #ffffff; 
+}
+
+.login {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff; 
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000; 
+    font-weight: 600;
+    margin-top: 5px; 
+    box-shadow: 0 4px 15px rgba(161, 2, 2, 0.3);
+    transition: all 0.3s ease;
+}
+
+.login:hover {
+    background-color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.register-text {
+    text-align: center;
+    margin: 20px 0 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.register-link {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.register-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
